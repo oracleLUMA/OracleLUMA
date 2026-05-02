@@ -1,0 +1,33 @@
+{
+  "name": "@luma/reader",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for reading LUMA oracle feeds on Solana",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "example:read": "ts-node examples/read-feed.ts"
+  },
+  "keywords": [
+    "solana",
+    "oracle",
+    "luma",
+    "anchor",
+    "web3"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@solana/web3.js": "^1.95.0"
+  },
+  "devDependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
