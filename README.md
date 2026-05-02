@@ -4,11 +4,11 @@
 
 **Push-based oracle infrastructure for Solana.**
 
-CA: GMtBBTTiXnTBtm1GsLq8JvKQhGGhnfMdLing1BKrYsQK
-
 Schedule any HTTP API → write the result on-chain → read it from anywhere.
 
 [lumaoracle.com](https://lumaoracle.com)
+
+CA: GMtBBTTiXnTBtm1GsLq8JvKQhGGhnfMdLing1BKrYsQK
 
 </div>
 
